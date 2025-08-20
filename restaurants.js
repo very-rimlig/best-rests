@@ -27,6 +27,83 @@ const restaurants = [
     image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
     link: "https://goo.gl/maps/jkl012",
   },
+  {
+    name: "Ekstedt",
+    rating: 4.6,
+    price: "$$$",
+    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+    link: "https://goo.gl/maps/mno345",
+  },
+  {
+    name: "Smorgastarteriet",
+    rating: 4.5,
+    price: "$$$",
+    image: "https://images.unsplash.com/photo-1546069901-eacef0df6022",
+    link: "https://goo.gl/maps/pqr678",
+  },
+  {
+    name: "Fem Små Hus",
+    rating: 4.5,
+    price: "$$",
+    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90",
+    link: "https://goo.gl/maps/stu901",
+  },
+  {
+    name: "Operakällaren",
+    rating: 4.8,
+    price: "$$$$",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+    link: "https://goo.gl/maps/vwx234",
+  },
+  {
+    name: "Lilla Ego",
+    rating: 4.7,
+    price: "$$",
+    image: "https://images.unsplash.com/photo-1551218808-94e220e084d2",
+    link: "https://goo.gl/maps/yz1234",
+  },
+  {
+    name: "Nytorget 6",
+    rating: 4.5,
+    price: "$$",
+    image: "https://images.unsplash.com/photo-1529692236671-f1dc28a2ef22",
+    link: "https://goo.gl/maps/ab5678",
+  },
+  {
+    name: "AG",
+    rating: 4.6,
+    price: "$$$",
+    image: "https://images.unsplash.com/photo-1600891964385-c6c2fa9f1b1b",
+    link: "https://goo.gl/maps/cd9012",
+  },
+  {
+    name: "Farang",
+    rating: 4.6,
+    price: "$$$",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+    link: "https://goo.gl/maps/ef3456",
+  },
+  {
+    name: "Restaurang Tradition",
+    rating: 4.4,
+    price: "$$",
+    image: "https://images.unsplash.com/photo-1529042410759-befb1204b468",
+    link: "https://goo.gl/maps/gh7890",
+  },
+  {
+    name: "Rolfs Kök",
+    rating: 4.5,
+    price: "$$",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+    link: "https://goo.gl/maps/ij1234",
+  },
+  {
+    name: "Sturehof",
+    rating: 4.6,
+    price: "$$$",
+    image: "https://images.unsplash.com/photo-1617196039897-7a622d8f79ae",
+    link: "https://sturehof.com/
+  },
 ];
 
 let sortKey = "rating";
@@ -65,4 +142,5 @@ function sortBy(key) {
 }
 
 // Render första gången
+
 renderList();
