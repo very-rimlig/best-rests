@@ -97,13 +97,6 @@ const restaurants = [
     image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
     link: "https://goo.gl/maps/ij1234",
   },
-  {
-    name: "Sturehof",
-    rating: 4.6,
-    price: "$$$",
-    image: "https://images.unsplash.com/photo-1617196039897-7a622d8f79ae",
-    link: "https://sturehof.com/
-  },
 ];
 
 let sortKey = "rating";
@@ -142,5 +135,4 @@ function sortBy(key) {
 }
 
 // Render första gången
-
 renderList();
